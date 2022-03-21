@@ -1,0 +1,256 @@
+@charset "utf-8";
+
+@media screen and (max-width: 1000px) {
+    main {
+        width: 90%;
+    }
+
+    .button {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .button p {
+        font-size: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skin {
+        display: none;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .pride svg {
+        height: 35px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    main {
+        width: 1000px;
+    }
+
+    .button {
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .pride svg {
+        height: 50px;
+    }
+}
+
+body {
+    background-color: #E7F5FE;
+}
+
+main {
+    border: medium #3300FF dashed;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #CFEBFD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TopContainer {
+    display: flex;
+    justify-content: center;
+}
+
+header h3 {
+    font-family: Tahoma, Geneva, sans-serif;
+    text-align: center;
+    color: palevioletred;
+    font-size: 20px;
+    font-weight: 400;
+    text-shadow: 1px 1px pink;
+    margin-bottom: 10px;
+}
+
+header h4 {
+    font-family: Tahoma, Geneva, sans-serif;
+    text-align: center;
+    color: darkred;
+    font-size: 15px;
+    font-weight: 400;
+    text-shadow: 1px 1px pink;
+    margin-top: 0;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    margin: 10px auto;
+    padding: 15px;
+    text-decoration: none;
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+
+.button p {
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 15px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 140%;
+    letter-spacing: 0px;
+    word-spacing: -1.6px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.button img {
+    width: 50px;
+    height: 50px;
+}
+
+.discord {
+    background-color: #5865F2;
+}
+
+.github {
+    background-color: black;
+}
+
+.twitch {
+    background-color: #6441a5;
+}
+
+.youtube {
+    background-color: #282828
+}
+
+.osu {
+    background-color: #ff66aa;
+}
+
+.skin {
+    margin-left: auto;
+    flex-direction: column;
+}
+
+.extra {
+    display: flex;
+    flex-direction: row;
+}
+
+.extra p {
+    font-size: 100%;
+    margin-right: 5px;
+    margin-left: auto;
+}
+
+.extra a {
+    text-decoration: none;
+}
+
+.osubutton p {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 140%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+    text-decoration: none;
+    word-spacing: -1.6px;
+}
+
+main a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.osubutton {
+    display: flex;
+    flex-direction: row;
+}
+
+.programs a {
+    text-decoration: none;
+}
+
+.osu a {
+    text-decoration: none;
+}
+
+.programs {
+    background-color: #000000;
+}
+
+.preview:hover {
+    animation-name: text;
+    animation-fill-mode: forwards;
+}
+
+.download {
+    margin-left: auto;
+}
+
+.download:hover {
+    animation-name: text;
+    animation-fill-mode: forwards;
+}
+
+
+
+@keyframes text {
+    from {
+        text-decoration: none
+    }
+
+    to {
+        text-decoration: underline
+    }
+}
+
+h1 {
+    font-family: Tahoma, Geneva, sans-serif;
+    letter-spacing: -1.6px;
+    word-spacing: -1.6px;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+h2 {
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 30px;
+    letter-spacing: -1.6px;
+    word-spacing: -1.6px;
+    color: #5bcffa;
+    text-shadow: 1px 2px #07a1da;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,70 @@
+@charset "utf-8";
+body  {
+    background-color: rgba(23,23,23,1.00);
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    overflow: visible;
+    background-position: center;
+    margin: 0;
+}
+h1 {
+	text-align: center;
+    text-indent: 0px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    color: grey;
+}
+.left {
+	width: 33%;
+	height: 500px;
+	border: 1px black solid;
+	float: left;
+}
+.center {
+	width: 33%;
+	height: 500px;
+	border: 1px red solid;
+	float: left;
+    overflow-x: scroll;
+}
+.right {
+	width: 33%;
+	height: 500px;
+	border: 1px blue solid;
+	float: left;
+}
+.titlediv {
+	background-color: aliceblue;
+	opacity:.8;
+}
+.contrdiv {
+	margin-top: 1px;
+	clear: both;
+	background-color: orange;
+	opacity:.8;
+}
+.bg {
+  animation:slide 30s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:30s;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
