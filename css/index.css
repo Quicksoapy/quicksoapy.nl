@@ -75,6 +75,10 @@ main h3 {
 }
 
 main a {
+    background-color: black;
+}
+
+main div a {
     text-decoration: none;
 }
 
