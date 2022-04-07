@@ -75,11 +75,17 @@ main h3 {
 }
 
 main a {
-    background-color: black;
+    color: #000;
+    text-decoration: underline;
 }
 
 main div a {
     text-decoration: none;
+}
+
+main div h5 a {
+    text-decoration: underline;
+    color: #FFF;
 }
 
 .highlightedProjects {
