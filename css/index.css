@@ -80,8 +80,12 @@ main a {
 }
 
 main div a {
-    color: #FFF;
     text-decoration: none;
+}
+
+main div h5 a {
+    text-decoration: underline;
+    color: #FFF;
 }
 
 .highlightedProjects {
