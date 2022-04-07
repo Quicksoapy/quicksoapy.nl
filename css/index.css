@@ -15,6 +15,15 @@
 body {
     background-color: #FFFFFF;
     margin: 0%;
+    background-image: url('../files/background.jpg');
+}
+
+header {
+    background:darkslategrey;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
 }
 
 h3, .header_right a {
@@ -88,6 +97,20 @@ main div a {
     height: 576px;
     display: flex;
     border: 5px darkblue double;
+    background-size: contain;
+    background-repeat: no-repeat
+}
+
+.osu {
+    background-image: url('../files/osubackground_blurred.png');
+}
+
+.forum {
+    background-image: url('../files/forumbackground_blurred.png');
+}
+
+.cryptor {
+    background-image: url('../files/soapycryptorbackground_blurred.png');
 }
 
 h4 {
