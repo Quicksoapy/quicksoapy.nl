@@ -133,6 +133,7 @@ main div h5 a {
     background-repeat: no-repeat;
     width: 100%;
     aspect-ratio: 16/9;
+    cursor: pointer;
 }
 
 .osu {
@@ -145,6 +146,7 @@ main div h5 a {
 
 .cryptor {
     background-image: url('../files/soapycryptorbackground_blurred.png');
+    margin-bottom: 10px;
 }
 
 h4 {
